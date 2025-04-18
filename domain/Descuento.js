@@ -1,4 +1,4 @@
-class DescuentoFijo {
+export class DescuentoFijo {
     constructor(valor) {
         this.valor = valor
     }
@@ -8,7 +8,7 @@ class DescuentoFijo {
     }
 }
 
-class DescuentoPorcentual {
+export class DescuentoPorcentual {
     constructor(porcentaje) {
         this.porcentaje
     }
@@ -17,7 +17,7 @@ class DescuentoPorcentual {
     }
 }
 
-class DescuentoPorCantidad {
+export class DescuentoPorCantidad {
     // "Tanto descuento en la N unidad"
     constructor(cantidadMinima, porcentaje){
         this.cantidadMinima = cantidadMinima
@@ -33,5 +33,3 @@ class DescuentoPorCantidad {
         return valoreDescontado
     }
 }
-
-module.exports = { DescuentoFijo, DescuentoPorcentual, DescuentoPorCantidad }

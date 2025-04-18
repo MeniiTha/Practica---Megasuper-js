@@ -1,4 +1,4 @@
-class ItemCarrito {
+export class ItemCarrito {
     constructor( producto, cantidad) {
         this.producto = producto
         this.cantidad = cantidad
@@ -23,5 +23,3 @@ class ItemCarrito {
     }
 
 }
-
-module.exports = { ItemCarrito }

@@ -1,4 +1,4 @@
-class Producto {
+export class Producto {
 
     #precioBase
 
@@ -15,5 +15,3 @@ class Producto {
         this.precioBase = nuevoPrecio
     }
 }
-
-module.exports = { Producto }
